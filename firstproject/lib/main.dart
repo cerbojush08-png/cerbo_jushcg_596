@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  //ERROR?
   await Supabase.initialize(
     url: "https://eyhuxytrvxssyimxyuru.supabase.co",
     anonKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV5aHV4eXRydnhzc3lpbXh5dXJ1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQzODg2NzgsImV4cCI6MjA4OTk2NDY3OH0.mnJDCV_9nYBgmRDSlA5BVQrhBttPI9I6guAvPNQtl2I",
